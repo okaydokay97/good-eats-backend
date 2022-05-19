@@ -12,6 +12,7 @@ const sequelize = new Sequelize(db.database, db.user, db.password, {
 User.belongsToMany(Restaurant, {through: Order})
 Restaurant.belongsToMany(User, {through: Order})
 
+
 const tables = {}
 tables.Sequelize = Sequelize
 tables.sequelize = sequelize

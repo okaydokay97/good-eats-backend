@@ -47,4 +47,6 @@ Restaurant.init({
   modelName: 'Restaurant'
 })
 
+
+
 module.exports = Restaurant
